@@ -60,7 +60,7 @@ namespace NewsScrapService
                 using (HttpWebResponse wRes = (HttpWebResponse)wReq.GetResponse())
                 {
                     HttpStatusCode statusCode = wRes.StatusCode;
-                    Console.WriteLine(" statusCode : {0}", statusCode);
+                    //Console.WriteLine(" statusCode : {0}", statusCode);
 
                     Stream respPostStream = wRes.GetResponseStream();
                     using (StreamReader readerPost = new StreamReader(respPostStream, Encoding.GetEncoding("UTF-8"), true))
@@ -69,7 +69,7 @@ namespace NewsScrapService
                     }
                 }
 
-                Console.WriteLine(resResult);
+                // Console.WriteLine(resResult);
             }
             catch (Exception ex)
             {
@@ -104,7 +104,7 @@ namespace NewsScrapService
             // Get the response.
             WebResponse response = request.GetResponse();
             // Display the status.
-            Console.WriteLine(((HttpWebResponse)response).StatusDescription);
+           // Console.WriteLine(((HttpWebResponse)response).StatusDescription);
             // Get the stream containing content returned by the server.
             dataStream = response.GetResponseStream();
             // Open the stream using a StreamReader for easy access.
@@ -112,7 +112,7 @@ namespace NewsScrapService
             // Read the content.
             string responseFromServer = reader.ReadToEnd();
             // Display the content.
-            Console.WriteLine(responseFromServer);
+           // Console.WriteLine(responseFromServer);
             // Clean up the streams.
             reader.Close();
             dataStream.Close();

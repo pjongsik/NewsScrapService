@@ -73,8 +73,13 @@ namespace NewsScrapService
 
                 news.Add(new News(title, clickUrl));
 
+                Console.WriteLine("{0}", title);
+                Console.WriteLine("{0}", clickUrl);
+                Console.WriteLine("-");
+
             }
 
+            
             
 
 
@@ -115,3 +120,4 @@ namespace NewsScrapService
         
     }
 }
+
