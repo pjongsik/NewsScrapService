@@ -1,6 +1,0 @@
-D:\workspace_vs2015\NewsScrapService\NewsScrapService\obj\Debug\NewsScrapService.csprojResolveAssemblyReference.cache
-D:\workspace_vs2015\NewsScrapService\NewsScrapService\bin\Debug\NewsScrapService.exe.config
-D:\workspace_vs2015\NewsScrapService\NewsScrapService\bin\Debug\NewsScrapService.exe
-D:\workspace_vs2015\NewsScrapService\NewsScrapService\bin\Debug\NewsScrapService.pdb
-D:\workspace_vs2015\NewsScrapService\NewsScrapService\obj\Debug\NewsScrapService.exe
-D:\workspace_vs2015\NewsScrapService\NewsScrapService\obj\Debug\NewsScrapService.pdb
